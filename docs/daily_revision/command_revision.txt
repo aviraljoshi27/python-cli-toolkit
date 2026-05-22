@@ -1,0 +1,33 @@
+Day 1:
+pwd: to check where you are
+cd foldername : to go into that folder
+cd .. : to go one level up in the folder
+cd ~ : to go to home
+cd / : to go to root 
+mkdir foler_name : to create the folder
+touch filename : to create the file
+cat filename: to read the file
+echo "text" > file : to edit file
+echo -e "text" > file : to edit the file and can also use the next line while editing
+cat > file > 'EOF' text you want in file EOF : another and much cleaner way to edit the file
+grep "text" filename : to find the text in the file
+find . -name "filename" : to find that file
+ls : to list what in the folder
+ls -la : to list all the file even the hidden file inside the folder
+rm file: to delete the file
+rm -r folder : to delete the full folder
+> : use this to over write and >> : to append
+Day 2
+uv venv .venv : to create a folder name .venv
+source .venv/bin/activate : to activate the folder
+uv pip install package : to install that package inside the .venv
+uv pip list
+uv pip freeze > requirements.txt : to put all the details of the packages install in the txt file so that other can replicate it
+uv pip install -r requirements.txt : this is the way
+pyproject.toml : another way , this is the file that have 
+[project]
+name = 'name-of-the-project'
+version = "0.1.0" : this is for yourself only
+python-required = ">=3.11"
+dependencies = [package1, package2]
+deactivate : to get out of the environment
