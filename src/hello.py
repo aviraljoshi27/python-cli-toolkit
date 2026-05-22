@@ -1,6 +1,9 @@
+import sys
+
 def main():
-    print("Hello world !")
-    print("My name is Aviral.")
+    name = input("what is your name: ")
+    print(f"My name {name}.")
+    sys.exit(1)
 
 if __name__ == "__main__":
     main()
