@@ -6,3 +6,5 @@
 - [2026-05-21] Module 2 — COMPLETE — Python Environments & Package Management
 - [2026-05-22] Task 3.1 — PASS — Built greet.py with sys.argv argument handling
 - [2026-05-22] Module 3 — COMPLETE — From Notebook to Script
+- [2026-05-23] Task 4.1 — PASS — Built multi-file project with proper imports and src layout
+- [2026-05-23] Module 4 — COMPLETE — Modules, Packages, Imports
